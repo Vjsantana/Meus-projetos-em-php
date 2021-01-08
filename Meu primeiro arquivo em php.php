@@ -7,6 +7,7 @@
     <style>
         h2 {
             color: cadetblue;
+            text-shadow: 1px 1px brown;
         }
     </style>
 </head>
