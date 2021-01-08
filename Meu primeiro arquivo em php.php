@@ -16,7 +16,9 @@
 
     <?php echo "<h2> Primeiros passos e detalhes da linguagem <h2/>"; ?>
 
-<?php echo "Essas são as primeiras linhas de um código na linguagem PHP. Nesta linguagem, todas as varíáveis se iniciam com um '$'";
+<?php echo "Essas são as primeiras linhas de um código na linguagem PHP. Nesta linguagem, todas as varíáveis se iniciam com um '$'. Além disso, 
+é necessário ressaltar que na linguagem PHP há a diferenciação entre letras maiúsculas e minúsculas. Dessa forma, todas a variáveis serão escritas 
+com letras minúsculas.";
 
 ?>
 </body>
