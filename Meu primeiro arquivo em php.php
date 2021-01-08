@@ -6,20 +6,28 @@
     <title>Página de Teste - Valmir</title>
 </head>
 <body>
-    <h1> Página Inicial em PHP</h1>
+<h1> Página Inicial em PHP</h1>
 
-    <?php echo "<h2> Primeiros passos e detalhes da linguagem <h2/>"; ?>
+<h2>Primeiros passos e detalhes da linguagem<h2/>
 
+    <p>Essas são as primeiras linhas de um código na linguagem PHP. Nesta linguagem, todas as varíáveis se iniciam com um '$'. Além disso,
+        é necessário ressaltar que na linguagem PHP há a diferenciação entre letras maiúsculas e minúsculas. Dessa forma, todas a variáveis serão escritas
+        com letras minúsculas. </p>
+    <p>Outro detalhe interessante é que nesse tipo de linguagem, não existe declaração de varíável assim como na linguagem Java, por exemplo. (String,
+        Inteiro, Real ou Booleano). O PHP faz essa identificação automaticamente assim que atribuimos o valor a uma determinada variável. Trata-se de
+        um recurso chamado de 'coerção'. Podemos, no entanto, utilizar a declaração para uma determinada variável se desejarmos 'forçar' o sistema a
+        considerar o valor de uma variável como tal pois essas declarações de variáveis existem na linguagem PHP</p>.
 
-    <?php echo "Essas são as primeiras linhas de um código na linguagem PHP. Nesta linguagem, todas as varíáveis se iniciam com um '$'. Além disso, 
-é necessário ressaltar que na linguagem PHP há a diferenciação entre letras maiúsculas e minúsculas. Dessa forma, todas a variáveis serão escritas 
-com letras minúsculas. <br>
-Outro detalhe interessante é que nesse tipo de linguagem, não existe declaração de varíável assim como na linguagem Java, por exemplo. (String,
-Inteiro, Real ou Booleano). O PHP faz essa identificação automaticamente assim que atribuimos o valor a uma determinada variável. Trata-se de 
-um recurso chamado de 'coerção'. Podemos, no entanto, utilizar a declaração para uma determinada variável se desejarmos 'forçar' o sistema a 
-considerar o valor de uma variável como tal pois essas declarações de variáveis existem na linguagem PHP. ";
-
-?>
+    <?php
+    $nome = "Valmir";
+    $sobrenome = "Santana";
+    $idade = "37";
+    $cidade = "Camaragibe";
+    $estado = "Pernambuco"?>
+<?php
+    echo "Olá! Eu me chamo $nome. Meu sobrenome é $sobrenome, tenho $idade anos de idade. Atualmente moro em 
+     $cidade no estado de $estado."
+    ?>
 </body>
 </html>
 
@@ -32,7 +40,8 @@ Note que ele incia com (/*) e termina com (*/) */
 
 // OS EXEMPLOS DE COMENTÁRIOS APRESENTADOS ACIMA NÃO IRÃO SER LIDOS PELO COMPILADOR E CONSEQUENTEMENTE NÃO
 IRÃO APARECER NA PÁGINA WEB. NO ENTANTO, SE ELES FOREM INCLUÍDOS DENTRO DO 'BODY' DE UM CÓDIGO HTML, ELES
-APAREÇERÃO NA PÁGINA. O MESMO OCORRERÁ SE ELE VIER APÓS O COMANDO echo DO PHP.
+APAREÇERÃO NA PÁGINA. O MESMO OCORRERÁ SE ELE VIER APÓS O COMANDO 'echo' DO PHP. DESSA FORMA, EMITIMOS
+COMANDO. 
 NOTE QUE ELES DEVEM FICAR ENTRE AS TAGS (<?php e ?>) DA LINGUAGEM PHP."
 ?>
 
