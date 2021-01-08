@@ -21,7 +21,8 @@
 com letras minúsculas. <br>
 Outro detalhe interessante é que nesse tipo de linguagem, não existe declaração de varíável assim como na linguagem Java, por exemplo. (String,
 Inteiro, Real ou Booleano). O PHP faz essa identificação automaticamente assim que atribuimos o valor a uma determinada variável. Trata-se de 
-um recurso chamado de 'coerção'.  ";
+um recurso chamado de 'coerção'. Podemos, no entanto, utilizar a declaração para uma determinada variável se desejarmos 'forçar' o sistema a 
+considerar o valor de uma variável como tal pois essas declarações de variáveis existem na linguagem PHP. ";
 
 ?>
 </body>
