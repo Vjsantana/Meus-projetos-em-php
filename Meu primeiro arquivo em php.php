@@ -18,7 +18,10 @@
 
 <?php echo "Essas são as primeiras linhas de um código na linguagem PHP. Nesta linguagem, todas as varíáveis se iniciam com um '$'. Além disso, 
 é necessário ressaltar que na linguagem PHP há a diferenciação entre letras maiúsculas e minúsculas. Dessa forma, todas a variáveis serão escritas 
-com letras minúsculas.";
+com letras minúsculas. <br>
+Outro detalhe interessante é que nesse tipo de linguagem, não existe declaração de varíável assim como na linguagem Java, por exemplo. (String,
+Inteiro, Real ou Booleano). O PHP faz essa identificação automaticamente assim que atribuimos o valor a uma determinada variável. Trata-se de 
+um recurso chamado de 'coerção'.  ";
 
 ?>
 </body>
