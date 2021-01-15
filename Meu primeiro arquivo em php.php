@@ -29,25 +29,27 @@
     echo "Olá! Eu me chamo $nome. Meu sobrenome é $sobrenome, tenho $idade anos de idade. Atualmente moro em 
      $cidade no estado de $estado."
     ?>
-    <h5> Nota: A frase acima foi contruída utilizando variáveis pré-definidas<h5/>
+    <h5> Nota: A frase acima foi contruída utilizando variáveis pré-definidas</h5>
 
 
 
 </body>
 </html>
 
-<?php "// Este é um tipo de comentário para uma única linha. Basta iniciar com '//';
+<?php 
 
-/* Este é um comentário de múltiplas linhas.
-Note que ele incia com (/*) e termina com (*/) */
+    "// Este é um tipo de comentário para uma única linha. Basta iniciar com '//';
 
-# Este é um comentário de uma linha no estilo shell. Note que ele inicia com #
+    /* Este é um comentário de múltiplas linhas.
+    Note que ele incia com (/*) e termina com (*/) */
 
-// OS EXEMPLOS DE COMENTÁRIOS APRESENTADOS ACIMA NÃO IRÃO SER LIDOS PELO COMPILADOR E CONSEQUENTEMENTE NÃO
-IRÃO APARECER NA PÁGINA WEB. NO ENTANTO, SE ELES FOREM INCLUÍDOS DENTRO DO 'BODY' DE UM CÓDIGO HTML, ELES
-APAREÇERÃO NA PÁGINA. O MESMO OCORRERÁ SE ELE VIER APÓS O COMANDO 'echo' DO PHP. DESSA FORMA, EMITIMOS
-COMANDO. 
-NOTE QUE ELES DEVEM FICAR ENTRE AS TAGS (<?php e ?>) DA LINGUAGEM PHP."
+    # Este é um comentário de uma linha no estilo shell. Note que ele inicia com #
+
+    // OS EXEMPLOS DE COMENTÁRIOS APRESENTADOS ACIMA NÃO IRÃO SER LIDOS PELO COMPILADOR E CONSEQUENTEMENTE NÃO
+    IRÃO APARECER NA PÁGINA WEB. NO ENTANTO, SE ELES FOREM INCLUÍDOS DENTRO DO 'BODY' DE UM CÓDIGO HTML, ELES
+    APAREÇERÃO NA PÁGINA. O MESMO OCORRERÁ SE ELE VIER APÓS O COMANDO 'echo' DO PHP. DESSA FORMA, EMITIMOS
+    COMANDO. 
+    NOTE QUE ELES DEVEM FICAR ENTRE AS TAGS (<?php e ?>) DA LINGUAGEM PHP."
 ?>
 
 
