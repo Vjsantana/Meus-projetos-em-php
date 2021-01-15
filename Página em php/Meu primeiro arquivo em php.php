@@ -29,13 +29,18 @@
     echo "Olá! Eu me chamo $nome. Meu sobrenome é $sobrenome, tenho $idade anos de idade. Atualmente moro em 
      $cidade no estado de $estado."
     ?>
+<<<<<<< Updated upstream:Meu primeiro arquivo em php.php
     <h5> Nota: A frase acima foi contruída utilizando variáveis pré-definidas</h5>
+=======
+    Nota: A frase acima foi contruída utilizando variáveis pré-definidas.
+>>>>>>> Stashed changes:Página em php/Meu primeiro arquivo em php.php
 
 
 
 </body>
 </html>
 
+<<<<<<< Updated upstream:Meu primeiro arquivo em php.php
 <?php 
 
     "// Este é um tipo de comentário para uma única linha. Basta iniciar com '//';
@@ -50,6 +55,11 @@
     APAREÇERÃO NA PÁGINA. O MESMO OCORRERÁ SE ELE VIER APÓS O COMANDO 'echo' DO PHP. DESSA FORMA, EMITIMOS
     COMANDO. 
     NOTE QUE ELES DEVEM FICAR ENTRE AS TAGS (<?php e ?>) DA LINGUAGEM PHP."
+=======
+<?php
+;
+
+>>>>>>> Stashed changes:Página em php/Meu primeiro arquivo em php.php
 ?>
 
 
